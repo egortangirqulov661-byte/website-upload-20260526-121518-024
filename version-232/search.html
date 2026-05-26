@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索-国产精选视频-精选视频片单合集-高清视频在线播放</title>
+  <meta name="description" content="国产精选视频搜索页，可按影片名称、地区、年份、类型和标签查找内容。">
+  <meta name="keywords" content="国产精选视频,精选视频,国产视频,视频片单,高清播放,热门视频,视频合集,影片搜索">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="国产精选视频">
+      <span class="brand-icon">▶</span>
+      <span>国产精选视频</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="ranking.html">热播榜</a>
+      <a href="category-selection.html">精选片单</a><a href="category-hot.html">热播视频</a><a href="category-movie.html">高清电影</a><a href="category-series.html">剧集频道</a>
+    </nav>
+    <form class="site-search" action="search.html">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-toggle" type="button" aria-label="打开菜单">☰</button>
+  </div>
+  <div class="mobile-panel">
+    <form class="site-search mobile-search" action="search.html">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类</a>
+    <a href="ranking.html">热播榜</a>
+    <a href="category-selection.html">精选片单</a><a href="category-hot.html">热播视频</a><a href="category-movie.html">高清电影</a><a href="category-series.html">剧集频道</a><a href="category-suspense.html">悬疑推理</a><a href="category-action.html">动作冒险</a><a href="category-romance.html">情感都市</a><a href="category-fantasy.html">科幻奇幻</a><a href="category-history.html">历史传记</a><a href="category-global.html">国际影单</a>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1>影片搜索</h1>
+      <p>输入影片名称、类型、地区、年份或标签，即可查找相关视频内容。</p>
+    </div>
+  </section>
+  <section class="section section-white">
+    <div class="container">
+      <div class="filter-bar">
+        <input id="search-page-input" type="search" placeholder="搜索影片名称、标签、地区、年份">
+        <select id="search-page-type" aria-label="类型筛选">
+          <option value="">全部类型</option>
+          <option value="Movie">Movie</option><option value="Movie (Animated)">Movie (Animated)</option><option value="OVA / 剧集">OVA / 剧集</option><option value="TV Series">TV Series</option><option value="TV 剧集">TV 剧集</option><option value="TV剧集">TV剧集</option><option value="TV动画">TV动画</option><option value="TV系列">TV系列</option><option value="TV系列剧">TV系列剧</option><option value="体育电影">体育电影</option><option value="剧情">剧情</option><option value="剧情喜剧网络剧">剧情喜剧网络剧</option><option value="剧集">剧集</option><option value="剧集 / 动画">剧集 / 动画</option><option value="剧集 / 单元剧">剧集 / 单元剧</option><option value="动作冒险电影">动作冒险电影</option><option value="动作犯罪片">动作犯罪片</option><option value="动作电影">动作电影</option><option value="动态漫画">动态漫画</option><option value="动态漫画 / 连续剧">动态漫画 / 连续剧</option><option value="动画">动画</option><option value="动画 / 剧集">动画 / 剧集</option><option value="动画 / 电视剧">动画 / 电视剧</option><option value="动画剧场版">动画剧场版</option><option value="动画剧集">动画剧集</option><option value="动画电影">动画电影</option><option value="动画短片">动画短片</option><option value="动画系列">动画系列</option><option value="动画，剧集">动画，剧集</option><option value="历史剧">历史剧</option><option value="历史悬疑片">历史悬疑片</option><option value="古装奇幻剧">古装奇幻剧</option><option value="喜剧电影">喜剧电影</option><option value="奇幻电影">奇幻电影</option><option value="宗教悬疑电影">宗教悬疑电影</option><option value="微短剧">微短剧</option><option value="恐怖电影">恐怖电影</option><option value="悬疑爱情电影">悬疑爱情电影</option><option value="惊悚动作电影">惊悚动作电影</option><option value="惊悚恐怖电影">惊悚恐怖电影</option><option value="惊悚犯罪电影">惊悚犯罪电影</option><option value="惊悚电影">惊悚电影</option><option value="战争惊悚电影">战争惊悚电影</option><option value="根据片名判断">根据片名判断</option><option value="浪漫剧情电影">浪漫剧情电影</option><option value="犯罪 / 剧情">犯罪 / 剧情</option><option value="电影">电影</option><option value="电影 (动画)">电影 (动画)</option><option value="电影 / 剧集">电影 / 剧集</option><option value="电影 / 动画">电影 / 动画</option><option value="电影 / 特别篇">电影 / 特别篇</option><option value="电影 / 音乐">电影 / 音乐</option><option value="电影 / 音乐会纪录片">电影 / 音乐会纪录片</option><option value="电影/动画">电影/动画</option><option value="电视剧">电视剧</option><option value="电视剧 (30集)">电视剧 (30集)</option><option value="电视剧 (8集)">电视剧 (8集)</option><option value="电视剧 / 单元剧">电视剧 / 单元剧</option><option value="电视剧/网剧">电视剧/网剧</option><option value="电视剧特辑">电视剧特辑</option><option value="电视剧集">电视剧集</option><option value="电视电影">电视电影</option><option value="真人秀综艺">真人秀综艺</option><option value="社会悬疑片">社会悬疑片</option><option value="科幻惊悚电影">科幻惊悚电影</option><option value="纪录剧情片">纪录剧情片</option><option value="纪录片">纪录片</option><option value="综艺">综艺</option><option value="综艺 / 晚会">综艺 / 晚会</option><option value="综艺 / 脱口秀">综艺 / 脱口秀</option><option value="综艺/脱口秀">综艺/脱口秀</option><option value="综艺节目">综艺节目</option><option value="网剧">网剧</option><option value="网络剧">网络剧</option><option value="网络电影">网络电影</option><option value="超自然悬疑电影">超自然悬疑电影</option><option value="都市剧情剧">都市剧情剧</option><option value="都市家庭悬疑剧">都市家庭悬疑剧</option><option value="青春爱情片">青春爱情片</option>
+        </select>
+      </div>
+      <p id="search-hint" class="search-result-hint"></p>
+      <div id="search-results" class="movie-grid"></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand"><span class="brand-icon">▶</span><strong>国产精选视频</strong></div>
+      <p>围绕国产精选视频整理多类型内容，结合热度、题材和片单展示视频页面，适合按分类查找。</p>
+    </div>
+    <div>
+      <h2>快速导航</h2>
+      <a href="index.html">网站首页</a>
+      <a href="categories.html">全部分类</a>
+      <a href="ranking.html">热播榜单</a>
+      <a href="search.html">影片搜索</a>
+    </div>
+    <div>
+      <h2>精选频道</h2>
+      <a href="category-selection.html">精选片单</a><a href="category-hot.html">热播视频</a><a href="category-movie.html">高清电影</a><a href="category-series.html">剧集频道</a><a href="category-suspense.html">悬疑推理</a><a href="category-action.html">动作冒险</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产精选视频 · 高清视频在线播放</div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="./assets/app.js"></script>
+<script src="./assets/search-index.js"></script>
+</body>
+</html>
